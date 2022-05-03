@@ -1,0 +1,172 @@
+body {
+  background: #F50004;
+  margin: 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+header nav {
+  background-color: #750002;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#about {
+  display: flex;
+}
+#about #about__photo {
+  max-width: 200px;
+  height: auto;
+}
+#about #about__text-cnt {
+  background-color: white;
+  padding: 50px;
+}
+#about h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+#quote {
+  background-color: #C20003;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+#quote #quote__cite {
+  font-size: 1.5em;
+}
+
+#job-exp {
+  background-color: white;
+}
+#job-exp h2 {
+  padding: 10px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+#job-exp #job-exp__experience .job-exp__jobs {
+  display: inline-flex;
+  background-color: #F74A4D;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#job-exp #job-exp__experience .job-exp__jobs .job-exp__company {
+  max-width: 150px;
+  height: auto;
+}
+#job-exp #job-exp__experience .job-exp__jobs .blabla {
+  display: inline-block;
+  margin: 10px;
+}
+#job-exp #job-exp__experience h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#skills {
+  background-color: white;
+  padding: 10px;
+}
+#skills h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+#skills .skills__1 {
+  background-color: #F74A4D;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#skills h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#education {
+  background-color: white;
+  padding: 10px;
+}
+#education .edu__1 {
+  background-color: #F74A4D;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#education h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+#education ul {
+  list-style-type: none;
+}
+#education h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#extracurricular {
+  background-color: white;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+#extracurricular .extra__1 {
+  background-color: #F74A4D;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#extracurricular h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+#extracurricular h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0px 10px;
+}
+#extracurricular h3 li {
+  padding: 10px;
+}
+
+footer {
+  background-color: #750002;
+  color: white;
+  padding: 5px 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer #footer__social-medias .footer__social-medias_icons {
+  max-width: 40px;
+  height: auto;
+}
+footer #footer__email-phone p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

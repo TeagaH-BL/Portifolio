@@ -1,0 +1,179 @@
+$red-med: #F50004
+$red-claro: #F74A4D
+$red-escuro: #C20003
+$red-var: #750002
+$font-imp: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+body
+    background:  #F50004
+    margin: 0
+
+main
+    max-width: 1000px
+    margin: 0 auto 
+    //display: grid
+    //column-gap: 10px
+    //row-gap: 10px
+    //grid-template-columns: (4, 1fr)
+    //grid-template-rows: auto
+    //grid-template-areas: "about about""quote quote" "job-exp skills" "education extracurricular"
+    //grid-template-areas: "about about about about" "quote quote quote quote" "job-exp job-exp skills skills" "education education extracurricular extracurricular"
+
+header
+    position: sticky
+    top: 0
+    nav
+        background-color: $red-var
+        display: flex
+        justify-content: space-evenly
+        padding: 20px
+        a
+            text-decoration: none
+            color: white
+
+#main-title
+    text-align: center
+    font-size: 50px
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+#about
+    //grid-area: about
+    display: flex
+    
+    #about__photo
+        max-width: 200px
+        height: auto       
+
+    #about__text-cnt
+        background-color: white
+        padding: 50px//
+
+    h2
+        font-family: $font-imp
+        font-size: 30px
+
+#quote
+    //grid-area: quote
+    background-color: $red-escuro
+    text-align: center
+    color: white
+    padding: 20px 0
+
+    #quote__cite
+        font-size: 1.5em
+
+#job-exp
+    //grid-area: job-exp
+    background-color: white
+    h2
+        padding: 10px
+        text-align: center
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        font-size: 30px
+        margin: 0px
+
+    #job-exp__experience
+        .job-exp__jobs
+            display: inline-flex
+            background-color: $red-claro
+            padding: 20px
+            margin: 10px
+            border-radius: 10px
+            .job-exp__company
+                max-width: 150px
+                height: auto
+            .blabla
+                display: inline-block
+                margin: 10px
+
+        h3
+            font-family: $font-imp
+                
+#skills
+    //grid-area: skills
+    background-color: white
+    padding:10px
+    
+    h2 
+        text-align: center
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        font-size: 30px
+        margin: 0px
+
+    .skills__1
+        background-color: $red-claro
+        padding: 10px
+        margin: 10px
+        border-radius: 10px
+
+    h3
+        font-family: $font-imp
+
+#education
+    //grid-area: education
+    background-color: white
+    padding: 10px
+
+    .edu__1
+        background-color: $red-claro
+        padding: 10px
+        margin: 10px
+        border-radius: 10px
+
+    h2
+        text-align: center
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        font-size: 30px
+        margin: 0px
+
+    ul
+        list-style-type: none
+
+    h3
+        font-family: $font-imp
+
+#extracurricular
+    //grid-area: extracurricular
+    background-color: white
+    margin-bottom: 0px
+    padding: 5px
+
+    .extra__1
+        background-color: $red-claro
+        padding: 10px
+        margin: 10px
+        border-radius: 10px
+
+    h2
+        text-align: center
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        font-size: 30px
+        margin: 0px
+
+    h3
+        font-family: $font-imp
+        padding: 0px 10px
+        li
+            padding: 10px
+
+footer
+    background-color: $red-var
+    color: white
+    padding: 5px 10px
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-evenly
+    align-items: center
+
+    #footer__social-medias
+        .footer__social-medias_icons
+            max-width: 40px
+            height: auto
+
+    #footer__email-phone
+        p
+            margin: 0
+
+@media (max-width: 480px)
+
+
